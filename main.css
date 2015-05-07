@@ -347,7 +347,7 @@ div {
 
 Letters,letterh,letterp{
 padding-right:50px;
-
+vertical-align:middle;
 
 }
 
@@ -363,6 +363,13 @@ Letters img {
 
 stext,htext,ptext,etext {
     display:none;
+    font-family:"bebas neue";
+    text-shadow: 2px 3px 7px rgba(0,0,0,1);
+    font-size:25px;
+    max-width:225px;
+    color:White ;
+    vertical-align:20px;
+    text-align:center;
 }
 
 Lettergroup {
@@ -399,6 +406,8 @@ symbols {
     margin-left:auto;
     margin-right:auto;
     display:table;
+    width:auto;
+    height:190px;
 }
 
 revent {
@@ -430,4 +439,16 @@ tagline {
     font-family:"Shadows Into Light";
     color:white;
     text-shadow: 2px 3px 7px rgba(0,0,0,1);
+}
+
+hs,hh,hp,he {
+    display:block;
+    font-weight:bold;
+    font-size:35px;
+    vertical-align:top;
+}
+
+ptext ul {
+    margin-top:10px;
+    margin-bottom:0px;
 }
