@@ -1,32 +1,35 @@
 
 $(document).ready(function() {
     $("letters").hover(function() {
-    $("letters").css("padding-right","0px")
-    $("stext").stop(true, false).show("slow");
+    $("letters img").css("padding-right","0px")
+    $("stext").stop(true, false).show("slow").fadeIn("slow");
 },function(){
-        $("letters").css("padding-right","20px")
-        $("stext").stop(true, false).hide("slow");}
+        $("letters").css("padding-right","20px");
+        $("stext").stop(true, false).hide("slow").fadeOut("slow");}
                       )});
 
 $(document).ready(function() {
     $("letterh").hover(function() {
-     $("letterh").css("padding-right","0px")
-    $("htext").stop(true, false).show("slow");
+     $("letterh img").css("padding-right","0px");
+    $("htext").stop(true, false).show("slow").fadeIn("slow");
 },function(){
-        $("letterh").css("padding-right","20px")
-        $("htext").stop(true, false).hide("slow");}
+        $("letterh").css("padding-right","20px");
+        $("htext").stop(true, false).hide("slow").fadeOut("slow");}
                       )});
 
 $(document).ready(function() {
     $("letterp").hover(function() {
-     $("letterp").css("padding-right","0px")
-    $("ptext").stop(true, false).show("slow");
+     $("letterp img").css("padding-right","0px");
+    $("ptext").stop(true, false).show("slow").fadeIn("slow");
 },function(){
-        $("letterp").css("padding-right","20px")
-        $("ptext").stop(true, false).hide("slow");}
+        $("letterp").css("padding-right","20px");
+        $("ptext").stop(true, false).hide("slow").fadeOut("slow");}
                       )});
 $(document).ready(function() {
     $("lettere").hover(function() {
-    $("etext").stop(true, false).show("slow");},function() {
-    $("etext").stop(true, false).hide("slow");}
-)});
+     $("lettere img").css("padding-right","0px");
+    $("etext").stop(true, false).show("slow").fadeIn("slow");
+},function(){
+        $("lettere").css("padding-right","20px");
+        $("etext").stop(true, false).hide("slow").fadeOut("slow");}
+                      )});
