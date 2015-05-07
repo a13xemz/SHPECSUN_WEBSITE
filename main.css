@@ -160,7 +160,7 @@ events{
 }
 groupPhoto{
    width: auto;
-  height: 900px;
+  height: auto;
   background-color:rgb(10, 18, 37);
   background-attachment: fixed;
   background-size: 100%;
@@ -373,7 +373,7 @@ Lettergroup {
     background-size: 100% 500px;
     background-position:bottom;
     background-attachment: local;
-    height: 600px;
+    height: 660px;
     width:100%;
 }
 
