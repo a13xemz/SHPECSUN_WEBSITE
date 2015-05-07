@@ -1,0 +1,426 @@
+#rectangle {
+    width: auto;
+    height: 30px;
+    background: rgba(0,0,0,.6);
+}
+ScrollingNavBar {
+    width: 100%;
+    height: 37px;
+    background:rgba(48,48,48,0.8);
+    border: none;
+    position:fixed;
+    display:none;
+    z-index:3;
+}
+html {
+    background: #8c1129;
+    overflow: auto;
+}
+body {
+    margin: 0px;
+}
+headerlogo {
+    top: 4px;
+    left: 72px;
+}
+logo {
+    font-family: "langdon";
+    font-size: 46px;
+    float:left;
+    margin-top: 0px;
+    padding-left: 5px;
+    vertical-align: top;
+    color:white;
+    -webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
+}
+red {
+    color: #8c1129;
+    vertical-align: top;
+
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+link1 {
+padding-right: 18px;
+
+}
+
+rightnav {
+background-image: url(images/nav.png);
+backface-visibility: hidden;
+background-position: center;
+display: inline-block;
+width: 455px;
+height: 50px;
+vertical-align: top;
+background-size: 455px 55px;
+background-repeat: no-repeat;
+padding-top: 15px;
+}
+aboutus{
+font-family:"bebas neue";
+font-size: 30px;
+color: white;
+display:block;
+padding-left:10%;
+}
+
+fb {
+   vertical-align: top;
+    top: 4px;
+    left: 72px;
+    width: 74px;
+    height: 52px;
+    -webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
+}
+logoimage {
+    width: 74px;
+    height: 52px;
+    padding-left:0px;
+    padding-right:0px;
+}
+socicon{
+    padding-top: 5px;
+}
+
+links {
+    float:right;
+    font-family: "bebas neue";
+    font-size: 30px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+main {
+    width: auto;
+    height: 690px;
+    background:white;
+    font-family: "langdon";
+    font-size: 40px;
+}
+mainlogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    padding-right:30px;
+
+}
+link2 {
+    padding-right: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+navbarmain {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-left: 0px;
+    font-family: bebas neue;
+    text-align : center;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+    z-index:2;
+    opacity: 0.9;
+}
+link3 {
+    vertical-align: top;
+    text-align: left;
+    text-align: left;
+}
+linkselected {
+    padding-right: 41px;
+    padding-left: 50px;
+    vertical-align: top;
+    text-align: left;
+    background: #b90029;
+    background-position: top;
+}
+navbarbac {
+    float: right;
+}
+selected {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+linkclicked {
+    padding-right: 30px;
+    vertical-align: top;
+    text-decoration: underline;
+}
+events{
+    display:inline-block;
+    width:100%;
+    height:auto;
+}
+groupPhoto{
+   width: auto;
+  height: 900px;
+  background-color:rgb(10, 18, 37);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "langdon";
+  font-size: 40px;
+  display:block;
+}
+shape{
+    width:1000px;
+    height:700px;
+    background:black;
+}
+p{
+    font-family: "bebas neue";
+    font-size:22px;
+    color:white;
+    margin:0px;
+}
+h1{
+    text-align: center;
+    font-family: "bebas neue";
+    font-size:64px;
+    color: white;
+    text-shadow: 2px 3px 7px rgba(0,0,0,0.9);
+    margin-top:20px;
+}
+revents{
+    font-family: langdon ;
+    font-size: 64px;
+    text-shadow: 2px 3px 7px rgba(0,0,0,.9);
+    color:white;
+    text-transform:lowercase;
+    padding-top:30px;
+        padding-left:20px;
+            padding-bottom:10px;
+    display:inline-block;
+}
+h3{
+    font-weight:400;
+    width:300px;
+    margin:0px;
+    display: inline-block;
+    padding-top:30px;
+
+}
+copyright{
+    font-family: "bebas neue";
+    color:white;
+    font-weight:400;
+    display: inline-block;
+    text-align:right;
+    float:right;
+    padding-top:77px;
+
+}
+h4{
+    margin:0;
+    font-family:"bebas neue";
+    font-size:150%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 7px rgba(0,0,0,0.9);
+    max-width:250px;
+}
+circle{
+    border-radius: 50%;
+}
+treasury,vp,president,communications,social{
+    display: inline-block;
+    vertical-align: top;
+    padding-right:3px;
+
+}
+boardprofile{
+}
+info{
+    padding-top:10px;
+    display: block;
+    padding-left:5%;
+    height: 280px;
+
+}
+treasurytext,socialtext,communicationstext,presidenttext,vptext{
+    display: block;
+    margin:0;
+    font-family:"bebas neue";
+    font-size:20px;
+    text-align: center;
+    color: white;
+    width:200px;
+    height: 150px;
+    overflow: scroll;
+    padding-top:2px;
+    bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+board{
+    width:auto;
+    display:block;
+    text-align:center;
+}
+footer{
+    width:auto;
+    height:auto;
+    display:block;
+    background-color: rgba(47, 6, 14, 0.76);
+}
+h0{
+    display:inline-block;
+}
+
+navbarbackg {
+    float:left;
+    height: 50px;
+    width: 1000px;
+    background-color: white;
+    display: block;
+}
+
+leftnav {
+background-image: url(images/nav.png);
+backface-visibility: hidden;
+background-position: center;
+display: inline-block;
+width: 420px;
+height: 50px;
+vertical-align: top;
+background-size: 410px 55px;
+background-repeat: no-repeat;
+padding-top: 15px;
+padding-left: 30px;
+}
+row2{
+    display:none;
+}
+
+
+
+hidebutton {
+    display:block;
+    text-align:right;
+    font-family: "bebas neue";
+    font-size:30px;
+    padding-right:10px;
+    color:white;
+    text-decoration:underline;
+}
+
+h5 {
+    text-align:left;
+    font-size:50px;
+    color:white;
+}
+
+aboutTitle {
+    font-size:60px;
+    color:white;
+    padding-left:10px;
+    display: block;
+    padding-top:10px;
+    text-shadow: 2px 3px 7px rgba(0,0,0,1);
+
+}
+
+about {
+
+    width:50%;
+    display:table;
+}
+
+#image1 {
+    display:inline-block;
+}
+
+div {
+
+}
+
+
+
+
+
+Letters,letterh,letterp{
+padding-right:50px;
+
+
+}
+
+Letters img {
+    padding-right:20px;
+    
+
+}
+
+.s {
+
+}
+
+stext,htext,ptext,etext {
+    display:none;
+}
+
+Lettergroup {
+    display:table;
+    padding-top:20px;
+    background-image: url(images/members.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 500px;
+    background-position:bottom;
+    background-attachment: local;
+    height: 600px;
+    width:100%;
+}
+
+htext {
+    d
+}
+
+globe img{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:200px;
+    left: 0px;
+    display:block;
+   padding-right:0px;
+}
+
+globe {
+    display:block;
+}
+
+symbols {
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+}
+
+revent {
+     font-family: "bebas neue" ;
+    font-size: 64px;
+    text-shadow: 2px 3px 7px rgba(0,0,0,.9);
+    color:white;
+    text-transform:lowercase;
+        padding-left:50px;
+    display:block;
+}
+
+eventp {
+    font-family: "bebas neue";
+    font-size:22px;
+    color:white;
+    margin:0px;
+    display:block;
+    padding-left: 55%;
+}
+
+rldcscroll {
+    float:left;
+}
