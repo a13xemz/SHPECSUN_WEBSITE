@@ -96,8 +96,7 @@ links {
 }
 main {
     width: auto;
-    height: 690px;
-    background:white;
+    height: auto;
     font-family: "langdon";
     font-size: 40px;
 }
