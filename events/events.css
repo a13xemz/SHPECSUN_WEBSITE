@@ -1,4 +1,13 @@
+html {
+    background:rgba(47, 6, 14, 1);
+}
+footer {
+    background-color: rgba(47, 6, 14, 1);
+}
 
+scrollingnavbar{
+    display:inline-block;
+}
 mainbar {
     display:block;
     height:auto;
@@ -24,14 +33,16 @@ event {
     text-transform:lowercase;
 }
 
-#yui_3_14_1_3_1431061329565_186 {
-    display:none;
-}
 
-html {
-    background:rgba(47, 6, 14, 1);
-}
 
-footer {
-    background-color: rgba(47, 6, 14, 1);
+cal {
+    color:black;
+    font-family: langdon;
+    text-transform:lowercase;
+    font-size:60;
+    display:block;
+    background:white;
+    width:auto;
+    padding-top:10px;
+        padding-left:10px;
 }
