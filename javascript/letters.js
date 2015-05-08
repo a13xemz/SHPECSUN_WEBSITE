@@ -33,3 +33,8 @@ $(document).ready(function() {
         $("lettere").css("padding-right","20px");
         $("etext").stop(true, false).hide("slow").fadeOut("slow");}
                       )});
+$('down').click(function() {
+    $('html, body').animate({
+        scrollTop: $('footer').offset().top
+    }, 2000);
+});

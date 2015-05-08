@@ -9,8 +9,8 @@ ScrollingNavBar {
     background:rgba(48,48,48,0.8);
     border: none;
     position:fixed;
-    display:none;
     z-index:3;
+    display:none;
 }
 html {
     background: #8c1129;
@@ -467,4 +467,14 @@ revent img {
 margin-bottom: 10px;
   vertical-align: middle;
     margin-right:20px;
+}
+
+
+down {
+z-index: 5;
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 580px;
 }

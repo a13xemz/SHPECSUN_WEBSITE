@@ -14,4 +14,3 @@ $(document).scroll(function() {
     $("navbarmain").fadeOut();
   }
 });
-

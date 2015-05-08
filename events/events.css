@@ -1,0 +1,37 @@
+
+mainbar {
+    display:block;
+    height:auto;
+    width:auto;
+}
+
+navbartop {
+    width:100%;
+    height:37px;
+    display:block;
+}
+
+event {
+    display:block;
+    z-index:2;
+    margin-top:90px;
+    margin-left:50px;
+    font-size:100;
+    position:absolute;
+    color:white;
+    font-family: langdon;
+    text-shadow: 2px 3px 7px rgba(0,0,0,.9);
+    text-transform:lowercase;
+}
+
+#yui_3_14_1_3_1431061329565_186 {
+    display:none;
+}
+
+html {
+    background:rgba(47, 6, 14, 1);
+}
+
+footer {
+    background-color: rgba(47, 6, 14, 1);
+}
