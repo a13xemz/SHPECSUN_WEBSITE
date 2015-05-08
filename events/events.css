@@ -1,8 +1,9 @@
 html {
-    background:rgba(47, 6, 14, 1);
+    background:white;
 }
 footer {
-    background-color: rgba(47, 6, 14, 1);
+    background-color: rgba(0, 0, 0, .5);
+    color:white;
 }
 
 scrollingnavbar{
@@ -36,13 +37,37 @@ event {
 
 
 cal {
-    color:black;
-    font-family: langdon;
-    text-transform:lowercase;
-    font-size:60;
-    display:block;
-    background:white;
-    width:auto;
+   display:block;
+}
+
+
+
+h3 {
     padding-top:10px;
-        padding-left:10px;
+}
+
+copyright {
+    padding-top:57px;
+}
+
+#wowslider-container3 {
+    width: 400px;
+    max-height:360px;
+    margin-left:50px;
+        margin-bottom:40px;
+}
+
+events {
+    width:50%;
+    background-position:bottom;
+    background-repeat:repeat;
+}
+
+revent img {
+    display:block;
+}
+
+eventp {
+margin-left:30px;
+    margin-top:25px;
 }
