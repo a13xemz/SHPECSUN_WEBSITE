@@ -99,6 +99,7 @@ main {
     height: auto;
     font-family: "langdon";
     font-size: 40px;
+
 }
 mainlogo {
     display: inline-block;
@@ -158,6 +159,7 @@ events{
     width:100%;
     height:auto;
     background:url(/images/usc4.jpg);
+    background-size:100% ;
     background-repeat:no-repeat;
 }
 groupPhoto{
@@ -170,13 +172,14 @@ groupPhoto{
   font-family: "langdon";
   font-size: 40px;
   display:block;
+ 
 }
 shape{
     width:1000px;
     height:700px;
     background:black;
 }
-p{
+p1{
     font-family: "bebas neue";
     font-size:22px;
     color:white;
@@ -200,23 +203,20 @@ revents{
         padding-left:20px;
     display:inline-block;
 }
-h3{
+contact{
     font-weight:400;
-    width:300px;
     margin:0px;
-    display: inline-block;
     padding-top:30px;
-
+    height:auto;
+    display:table;
 }
 copyright{
     font-family: "bebas neue";
     color:white;
     font-weight:400;
-    display: inline-block;
     text-align:right;
     float:right;
-    padding-top:77px;
-
+    display:table;
 }
 h4{
     margin:0;
@@ -230,18 +230,19 @@ h4{
 circle{
     border-radius: 50%;
 }
-treasury,vp,president,communications,social{
+profile {
     display: inline-block;
-    vertical-align: top;
-    padding-right:3px;
+  vertical-align: top;
+    padding-left:1%;
+    padding-right:1%;
 }
 boardprofile{
 }
 info{
     padding-top:10px;
-    display: block;
-    padding-left:5%;
+    display: inline-block;
     height: 280px;
+
 
 }
 treasurytext,socialtext,communicationstext,presidenttext,vptext{
@@ -269,6 +270,7 @@ footer{
     height:auto;
     display:block;
     background-color: rgba(47, 6, 14, 1);
+    padding-top:20px;
 }
 h0{
     display:inline-block;
@@ -337,9 +339,7 @@ about {
     display:inline-block;
 }
 
-div {
 
-}
 
 
 
@@ -421,23 +421,22 @@ revent {
 }
 
 eventp {
-    font-family: "bebas neue";
-    font-size:22px;
-    color:white;
-    margin:0px;
-    padding-left: 20px;
-    width: 500px;
-    display: inline-block;
-    text-align:center;
-    margin-top:50px;
-    margin-bottom:auto;
+  font-family: "bebas neue";
+  font-size: 22px;
+  color: white;
+  margin: 0px;
+  padding-left: 10%;
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 rldcscroll {
-    float:left;
-    width:80%;
-    height:300px;
-    margin-left:0px;
+      float: left;
+  height: 240px;
+  margin-left: 0px;
 }
 
 tagline {
@@ -480,3 +479,36 @@ z-index: 5;
   text-align: center;
   top: 480px;
 }
+
+
+
+
+
+email {
+    font-family: "bebas neue";
+    font-size:22px;
+    color:white;
+    margin:0px;
+    display:block;
+}
+
+footertxt {
+    display:inline-block;
+}
+
+design p1{
+
+}
+
+design {
+float:right;
+    text-align:right;
+}
+
+rldc2015 {
+    display:inline-block;
+    width:50%;
+    height:auto;
+}
+
+
