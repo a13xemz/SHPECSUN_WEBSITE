@@ -58,9 +58,10 @@ copyright {
         margin-bottom:40px;
 }
 
-events {
+event {
     background-size:auto;
     background-repeat:no-repeat;
+    height
 }
 
 revent img {
@@ -84,6 +85,59 @@ rldcscroll {
 noche {
     display:inline-block;
     vertical-align:top;
-    background-color:yellow;
-    width:50%;
+    width:50.5%;
+    height:100%s;
+    background: url(/images/space-background.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    font-size:50px;
+    color:white;
+}
+
+eventgrid {
+    background:white;
+    width:100%;
+    height:102%;
+        display:block;
+    background: url(/images/space-background.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+noche img {
+    
+}
+
+#ndclogo {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
+
+infondc {
+    display:block;
+    font-size:25px;
+    text-align:center;
+    font-family: "bebas neue";
+    padding-top:10px;
+}
+
+#ndcimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ndcslider {
+    display:block;
+    height:auto;
+}
+
+#seemore {
+display:block;
+    font-size:35px;
+    text-align:right;
+    font-family: "bebas neue";
+    margin-top:20px;
 }

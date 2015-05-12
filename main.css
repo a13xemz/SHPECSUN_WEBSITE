@@ -157,9 +157,9 @@ linkclicked {
 events{
     display:inline-block;
     width:100%;
-    height:auto;
+    height:100%;
     background:url(/images/usc4.jpg);
-    background-size:100% ;
+    background-size:100% 100%;
     background-repeat:no-repeat;
 }
 groupPhoto{
@@ -507,8 +507,10 @@ float:right;
 
 rldc2015 {
     display:inline-block;
-    width:50%;
-    height:auto;
+    width:49%;
+    height:110%;
 }
+
+
 
 
