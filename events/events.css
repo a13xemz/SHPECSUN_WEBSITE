@@ -97,7 +97,7 @@ noche {
 eventgrid {
     background:white;
     width:100%;
-    height:102%;
+    height:auto;
         display:block;
     background: url(/images/space-background.jpg);
     background-size:100% 100%;
