@@ -3,7 +3,7 @@
     height: 30px;
     background: rgba(0,0,0,.6);
 }
-ScrollingNavBar {
+ScrollingNavBar{
     width: 100%;
     height: 37px;
     background:rgba(48,48,48,0.8);
@@ -99,8 +99,10 @@ main {
     height: auto;
     font-family: "langdon";
     font-size: 40px;
-
+ 
 }
+
+
 mainlogo {
     display: inline-block;
     margin-left: auto;
@@ -514,3 +516,13 @@ rldc2015 {
 
 
 
+
+
+
+
+
+divider {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
