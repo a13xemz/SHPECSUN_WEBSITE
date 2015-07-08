@@ -1,0 +1,42 @@
+p{
+    color:black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h3 a {
+    color:black;
+}
+
+h2,h3,h4{
+    font-family:'bebas neue';
+    text-shadow:none;
+}
+.navbar-inverse{
+    background:black;
+}
+.col-md-6 p{
+   font-size: 14px; 
+text-align: left;
+}
+.container {
+    
+}
+
+navspacer {
+    display:block;
+    width:auto;
+    height:500px;
+    background-attachment:fixed;
+    background-image:url("https://placehold.it/1200x500");
+}
+
+h1 {
+    font-family: 'langdon';
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 3px 7px;
+    text-shadow: none;
+    font-weight:normal;
+
+
+}
+body{
+    background-color:white;
+}
