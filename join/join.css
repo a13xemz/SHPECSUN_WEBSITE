@@ -1,0 +1,45 @@
+
+navspacer {
+    background-color:#8c1129;
+    background-image:none;
+    position:relative;
+    color:white;
+    font-size:80px;
+    text-align:center;
+    font-family:'langdon';
+    vertical-align:bottom;
+}
+
+#joinimg {
+    width:100%;
+    height:auto;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+space {
+    display:block;
+    width:auto;
+    height:25%;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    background-attachment:fixed;
+    
+
+}
+
+joinwrap {
+    position: relative; 
+}
+
+txtjn {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    z-index:2;
+    
+}
