@@ -1,15 +1,11 @@
 @font-face {
-    font-family: "langdon";
-    src: url('fonts/Langdon.eot');
-    src: local('☺'), url('fonts/Langdon.woff') format('woff'), url('fonts/Langdon.ttf') format('truetype'), url('fonts/Langdon.svg') format('svg');
+    font-family: 'Langdon';
+    src:url('Langdon.ttf.woff') format('woff'),
+        url('Langdon.ttf.svg#Langdon') format('svg'),
+        url('Langdon.ttf.eot'),
+        url('Langdon.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
-    font-style: normal,oblique;
-}
-@font-face {
-    font-family: "bebas neue";
-    src: url('fonts/BebasNeue Regular.eot');
-    src: local('☺'), url('fonts/BebasNeue Regular.woff') format('woff'), url('fonts/BebasNeue Regular.ttf') format('truetype'), url('fonts/BebasNeue Regular.svg') format('svg');
-    font-style: normal,oblique;
+    font-style: normal;
 }
 font-family: 'Shadows Into Light', cursive;
 }
