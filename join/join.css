@@ -12,10 +12,13 @@ navspacer {
 
 #joinimg {
     width:100%;
-    height:auto;
+    height:80%;
     position: absolute;
     bottom: 0px;
     right: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
 }
 
 space {
@@ -41,5 +44,6 @@ txtjn {
     margin-right: -50%;
     transform: translate(-50%, -50%) ;
     z-index:2;
+    font-size:70px;
     
 }
