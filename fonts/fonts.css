@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Langdon';
-    src:url('Langdon.ttf.woff') format('woff'),
-        url('Langdon.ttf.svg#Langdon') format('svg'),
-        url('Langdon.ttf.eot'),
-        url('Langdon.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('/fonts/Langdon.ttf.woff') format('woff'),
+        url('/fonts/Langdon.ttf.svg#Langdon') format('svg'),
+        url('/fonts/Langdon.ttf.eot'),
+        url('/fonts/Langdon.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
