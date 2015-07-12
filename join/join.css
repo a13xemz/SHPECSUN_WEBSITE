@@ -47,3 +47,29 @@ txtjn {
     font-size:70px;
     
 }
+
+h4 {
+    color:black;
+   margin: 0;
+  font-family: "bebas neue";
+  font-size: 30px;
+  text-align: center;
+  text-shadow: none;
+  max-width: 250px;
+}
+
+.page-header {
+    font-size:45px;
+}
+
+aboutus{
+   font-size:15px; 
+}
+
+.fa-circle {
+    color:rgba(0, 0, 0, 0.9);
+}
+
+.fa-university, .fa-trophy, .fa-briefcase, .fa-globe {
+    color:#8c1129;
+}
