@@ -82,6 +82,6 @@ h2 {
 h4 {
     display:inline-block;
 }
-.mc-modal{
-    z-index:999999999;
+.navbar-header{
+    z-index:1000;
 }
