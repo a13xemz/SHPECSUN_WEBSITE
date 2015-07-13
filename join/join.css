@@ -82,6 +82,6 @@ h2 {
 h4 {
     display:inline-block;
 }
-.navbar navbar-inverse navbar-fixed-top{
+.navbar-inverse{
     z-index:1000;
 }
