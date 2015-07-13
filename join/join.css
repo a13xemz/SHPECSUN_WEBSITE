@@ -85,3 +85,14 @@ h4 {
 .navbar-inverse{
     z-index:1000;
 }
+formsub {
+    display:none;
+}
+
+#sub {
+  color: #fff;
+  background-color: #8c1129;
+  border-color: #8c1129;
+    font-size:20px;
+    display:block;
+}
