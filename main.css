@@ -370,16 +370,18 @@ color:white;
 }
 
 #maincaption {
-    font-size:50px;
+    font-size:30px;
     font-family:'langdon';
     font-weight:normal;
     text-transform:lowercase;
     -webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
     line-height:60px;
-
+}
+#maincaption img {
+padding-bottom:10px;
 }
 #maincaption h2{
-    font-size:35px;
+    font-size:30px;
 }
 
 
