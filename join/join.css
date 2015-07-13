@@ -78,3 +78,7 @@ h2 {
     color:black;
     font-size:400px;
 }
+
+h4 {
+    display:inline-block;
+}
