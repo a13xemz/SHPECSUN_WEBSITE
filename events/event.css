@@ -26,7 +26,10 @@ navspacer {
     width:auto;
     height:500px;
     background-attachment:fixed;
-    background-image:url("https://placehold.it/1200x500");
+    background-image:url("/images/ndcproject.jpg");
+    background-size:cover;
+    background-position:bottom;
+    background-repeat:no-repeat;
 }
 
 h1 {
@@ -40,5 +43,17 @@ h1 {
 body{
     background-color:white;
 }
+.navbar-inverse{
+    display:block;
+}
 
 
+.row {
+    padding-top:none;
+}
+
+.page-header {
+  margin-top: 0px;
+  padding-top: 0px;
+  border-top: 0px;
+}

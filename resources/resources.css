@@ -55,6 +55,8 @@ h1 {
 body{
     background-color:white;
 }
-
+.navbar-inverse{
+    display:block;
+}
 
 

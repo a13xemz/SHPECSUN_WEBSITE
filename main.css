@@ -109,11 +109,12 @@ Lettergroup {
     padding-top:20px;
     background-image: url(images/members.jpg);
     background-repeat:no-repeat;
-    background-size: 100% 500px;
+    background-size: contain;
     background-position:bottom;
     background-attachment: fixed;
     height: 660px;
     width:100%;
+    
 }
 globe img{
     width:100%;
