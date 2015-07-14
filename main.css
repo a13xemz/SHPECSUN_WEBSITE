@@ -425,3 +425,7 @@ right {
 left{
 float:left;
 }
+
+.carousel-caption h2{
+    font-size:40px;
+}
