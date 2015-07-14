@@ -375,13 +375,24 @@ color:white;
     font-weight:normal;
     text-transform:lowercase;
     -webkit-filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.5));
-    line-height:60px;
+    line-height: normal; 
+    display: inline-block;
+    vertical-align: middle;
+    top:0px;
+    bottom:none;
+    padding-top:10px;
 }
-#maincaption img {
-padding-bottom:10px;
-}
+
 #maincaption h2{
     font-size:30px;
+    bottom:20px;
+    position:absolute;
+    text-align:center;
+      left: 5%;
+    right: 5%;
+    width: 100%;
+    z-index:-1;
+    display:none;
 }
 
 
@@ -389,3 +400,7 @@ padding-bottom:10px;
     display:none;
 }
 
+
+#maincaption .img-responsive {
+    display:inline;
+}
