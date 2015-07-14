@@ -246,7 +246,7 @@ info{
     overflow:hidden;
 
 }
-treasurytext,socialtext,communicationstext,presidenttext,vptext{
+profilequote{
    display: block;
   margin: 0;
   font-family: "bebas neue";
