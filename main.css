@@ -243,9 +243,7 @@ boardprofile{
 info{
     padding-top:10px;
     display: inline-block;
-    height: 280px;
-    overflow:hidden;
-
+    height: 200px;
 }
 profilequote{
    display: block;
@@ -255,13 +253,19 @@ profilequote{
   text-align: center;
   color: white;
   width: 200px;
-  height: 150px;
   overflow: scroll;
   padding-top: 2px;
   bottom: 0px;
   margin-left: auto;
   margin-right: auto;
     
+}
+profilesclinks{
+    font-family: "bebas neue";
+  font-size: 20px;
+  text-align: center;
+  color: white;
+    overflow:scroll;
 }
 board{
     width:auto;
@@ -352,17 +356,15 @@ page .container {
     background-color:#8c1129;
 
 }
-
-
-
-
-
 .dropdown-menu {
     background-color: rgba(78, 78, 78, 0.9);
 }
 .dropdown-menu>li>a{
     color:white;
     font-size:25px;
+}
+profilesclinks a, info h4 a{
+    color:white;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
 color:white;
@@ -434,4 +436,13 @@ subnav .btn-primary{
     background-color:transparent ;
     border:none;
     font-size:24px;
+}
+.btn-primary:hover {
+  background-color: rgba(234,234,234,.7);
+}
+a:hover{
+    color:#eaeaea;
+}
+.nav-tabs>li>a:hover{
+      background-color: rgba(234,234,234,.7);
 }
