@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://www.shpecsun.org/</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url><loc>http://shpecsun.org</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url><loc>http://shpecsun.org/events/</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>http://shpecsun.org/resources/</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>http://shpecsun.org/join/</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>http://shpecsun.org/events/index.html</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>http://shpecsun.org/resources/index.html</loc><lastmod>2015-07-17T13:38:00+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+</urlset>
