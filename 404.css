@@ -1,0 +1,38 @@
+.navbar-inverse{
+    display:block;
+}
+.jumbotron p {
+    color:white;
+    font-size:50px;
+    text-align:center;
+}
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background-color: #8c1129;
+background-size: cover;
+}
+.jumbotron {
+    background-color:transparent;
+}
+a {
+    color:#8c1129;
+}
+.jumbotron li {
+    font-size:35px;
+    font-family:'bebas neue';
+    font-weight:bold;
+        text-align:center;
+    list-style-position: inside;
+    color: #8c1129;
+}
+
+
