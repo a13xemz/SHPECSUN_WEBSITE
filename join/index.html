@@ -22,7 +22,7 @@
     <link href="join.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=a13xemz" async="async"></script>
-     <script src="/javascript/newsletter.js"></script>
+    <script src="/javascript/newsletter.js"></script>
 
     <!-- Custom Fonts -->
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -35,28 +35,37 @@
     <![endif]-->
 
     <!-- favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
-                <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
-                <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
-                <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
-                <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
-                <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
-                <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
-                <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
-                <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
-                <link rel="icon" type="/image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
-                <link rel="icon" type="/image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-                <link rel="icon" type="/image/png" sizes="96x96" href="/icon/favicon-96x96.png">
-                <link rel="icon" type="/image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-                <link rel="manifest" href="/icon/manifest.json">
-                <meta name="msapplication-TileColor" content="#ffffff">
-                <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
-                <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+    <link rel="icon" type="/image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
+    <link rel="icon" type="/image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="/image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+    <link rel="icon" type="/image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- favicon -->
-    <!--fonts--> <link rel="fonts" type="text/css" href="/fonts/fonts.css">
+    <!--fonts-->
+    <link rel="fonts" type="text/css" href="/fonts/fonts.css">
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"96562f4bafbefc03761579be8","lid":"fb82545e04"}) })</script>
+    <script type="text/javascript">
+        require(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us11.list-manage.com",
+                "uuid": "96562f4bafbefc03761579be8",
+                "lid": "fb82545e04"
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -89,7 +98,7 @@
                             <li>
                                 <a href="/resources/#jobs">Jobs / Oppurtunities</a>
                             </li>
-                            
+
                         </ul>
                     </li>
                     <li>
@@ -99,9 +108,11 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                        <sc-bar>
-                        <sc><div class="addthis_horizontal_follow_toolbox"></div></sc>
-                        </sc-bar>
+                                <sc-bar>
+                                    <sc>
+                                        <div class="addthis_horizontal_follow_toolbox"></div>
+                                    </sc>
+                                </sc-bar>
                             </li>
                         </ul>
                     </li>
@@ -117,10 +128,13 @@
 
 
     <!-- Page Content -->
-    <navspacer><txtjn>join the shpe csun familia</txtjn> <div id="joinimg" style= background-image:url('/images/membersil.png')></div></navspacer>
-  
+    <navspacer>
+        <txtjn>join the shpe csun familia</txtjn>
+        <div id="joinimg" style=b ackground-image:url( '/images/membersil.png')></div>
+    </navspacer>
+
     <div class="container">
-        
+
         <!-- Service Panels -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
         <div class="row">
@@ -183,70 +197,95 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
 
-        
-        
+
+
         <formsub>
-        <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup {
+                    background: #fff;
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                }
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//shpecsun.us11.list-manage.com/subscribe/post?u=96562f4bafbefc03761579be8&amp;id=fb82545e04" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE3">Major </label>
-	<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_96562f4bafbefc03761579be8_fb82545e04" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+            </style>
+            <div id="mc_embed_signup">
+                <form action="//shpecsun.us11.list-manage.com/subscribe/post?u=96562f4bafbefc03761579be8&amp;id=fb82545e04" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <h2>Subscribe to our mailing list</h2>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                            </label>
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-FNAME">First Name <span class="asterisk">*</span>
+                            </label>
+                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-LNAME">Last Name <span class="asterisk">*</span>
+                            </label>
+                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-MMERGE3">Major </label>
+                            <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_96562f4bafbefc03761579be8_fb82545e04" tabindex="-1" value="">
+                        </div>
+                        <div class="clear">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+                (function($) {
+                    window.fnames = new Array();
+                    window.ftypes = new Array();
+                    fnames[0] = 'EMAIL';
+                    ftypes[0] = 'email';
+                    fnames[1] = 'FNAME';
+                    ftypes[1] = 'text';
+                    fnames[2] = 'LNAME';
+                    ftypes[2] = 'text';
+                    fnames[3] = 'MMERGE3';
+                    ftypes[3] = 'text';
+                }(jQuery));
+                var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
         </formsub>
-        
-        <a class="btn btn-primary" id="sub">Subscribe to our Newsletter</a>    
-<div class="row">
-        <div class="col-lg-12">
-            <h2 class="page-header">About Us:</h2>
-            <aboutus>The Society of Hispanic Professional Engineers (SHPE) of California State University, Northridge (CSUN) is a student organization within the College of Engineering and Computer Science. Our success as an organization comes from the involvement of our members, faculty advisors, and supporters. Since the establishment of the organization in 1976, our mission was and still is to recruit, retain and, successfully graduate Hispanics in the fields of Engineering and Computer Science. SHPE-CSUN grew out of the MESA Engineering Program (MEP), which serves the minority population at the university. We have continually sought to increase membership and the variety of programs that we offer. These programs include cultural, social, and educational development in the fields of engineering and computer science.<br><br>
-Throughout its close to 40-year history, not only has SHPE-CSUN made a tremendous impact at the university, but it has grown to become an admired and respected organization within the San Fernando Valley. SHPE has been recognized by Senator Allen Robbins, Councilwoman Gloria Molina, Mayor Tom Bradley, Dr. Fred Starche; CSUN Associate Vice President for Student Programs, Margarita Colmenares; former SHPE National President, and Dr. Alfonso (Rick) Ratcliffe; Dean of Emeritus-College of Engineering and Computer Science.
-<br><br>
-Our members are seen as role models and are continually sought after for presentations relating to college education, parent involvement, financial assistance, and information regarding CSUN’s pre-college programs.
-<br><br>
-Our organization was built on the idea to build aspirations, establish goals, and achieve dreams in today’s fast advancing world. Today, that mission has stayed strong through its corporate sponsors, advisors, and members</aboutus>
-            
-    </div>
+
+        <a class="btn btn-primary" id="sub">Subscribe to our Newsletter</a>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">About Us:</h2>
+                <aboutus>The Society of Hispanic Professional Engineers (SHPE) of California State University, Northridge (CSUN) is a student organization within the College of Engineering and Computer Science. Our success as an organization comes from the involvement of our members, faculty advisors, and supporters. Since the establishment of the organization in 1976, our mission was and still is to recruit, retain and, successfully graduate Hispanics in the fields of Engineering and Computer Science. SHPE-CSUN grew out of the MESA Engineering Program (MEP), which serves the minority population at the university. We have continually sought to increase membership and the variety of programs that we offer. These programs include cultural, social, and educational development in the fields of engineering and computer science.
+                    <br>
+                    <br> Throughout its close to 40-year history, not only has SHPE-CSUN made a tremendous impact at the university, but it has grown to become an admired and respected organization within the San Fernando Valley. SHPE has been recognized by Senator Allen Robbins, Councilwoman Gloria Molina, Mayor Tom Bradley, Dr. Fred Starche; CSUN Associate Vice President for Student Programs, Margarita Colmenares; former SHPE National President, and Dr. Alfonso (Rick) Ratcliffe; Dean of Emeritus-College of Engineering and Computer Science.
+                    <br>
+                    <br> Our members are seen as role models and are continually sought after for presentations relating to college education, parent involvement, financial assistance, and information regarding CSUN’s pre-college programs.
+                    <br>
+                    <br> Our organization was built on the idea to build aspirations, establish goals, and achieve dreams in today’s fast advancing world. Today, that mission has stayed strong through its corporate sponsors, advisors, and members</aboutus>
+
+            </div>
         </div>
         <!-- Service Tabs -->
-       <!-- <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Service Tabs</h2>
             </div>
@@ -291,7 +330,7 @@ Our organization was built on the idea to build aspirations, establish goals, an
 
         <!-- Service List -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-       <!-- <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Service List</h2>
             </div>
@@ -416,12 +455,18 @@ Our organization was built on the idea to build aspirations, establish goals, an
 
     </div>
     <!-- /.container -->
-<!-- Footer -->
-<footer>
-        <p1>Contact us:</p1><br>
-        <left><a href="mailto:contactus@shpecsun.org"><p1>Via Email: contactus@shpecsun.org</p1></a></left>
-        <right><p1>Society of Hispanic Professional Engineers© California State Univerity northridge © Copyright 2015-2016</p1</right> 
-</footer>
+    <!-- Footer -->
+    <footer>
+        <p1>Contact us:</p1>
+        <br>
+        <left>
+            <a href="mailto:contactus@shpecsun.org">
+                <p1>Via Email: contactus@shpecsun.org</p1>
+            </a>
+        </left>
+        <right>
+            <p1>Society of Hispanic Professional Engineers© California State Univerity northridge © Copyright 2015-2016</p1</right>
+    </footer>
 
     <!-- jQuery -->
     <script src="/js/jquery.js"></script>
