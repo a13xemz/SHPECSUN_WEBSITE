@@ -85,7 +85,6 @@ vertical-align:middle;
 Letters img {
     padding-right:20px;
     
-
 }
 stext,htext,ptext,etext {
     display:none;
@@ -195,7 +194,7 @@ boardprofile{
 info{
     padding-top:10px;
     display: inline-block;
-    height: 200px;
+    height: auto;
 }
 profilequote{
    display: block;
@@ -212,12 +211,19 @@ profilequote{
   margin-right: auto;
     
 }
-profilesclinks{
+profilelink{
     font-family: "bebas neue";
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
+    vertical-align:middle;
   color: white;
     overflow:scroll;
+    display:block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 board{
     width:auto;
@@ -380,4 +386,32 @@ a:hover{
 }
 .nav-tabs>li>a:hover{
       background-color: rgba(234,234,234,.7);
+}
+hoverlinks {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  border-radius: 70%;
+  height:180px;
+  width:180px;
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align: middle;
+  text-align: center;
+
+}
+sociallink:hover hoverlinks{
+    display: block;
+}
+
+
+
+sociallink {
+    display:block;   
+    position: relative;
 }
