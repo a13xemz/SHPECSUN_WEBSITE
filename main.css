@@ -303,7 +303,7 @@ page .container {
     background-color: rgba(78, 78, 78, 0.9);
 }
 .dropdown-menu>li>a{
-    color:white;
+    color:red;
     font-size:25px;
 }
 profilesclinks a, info h4 a{
@@ -386,6 +386,9 @@ subnav .btn-primary{
 a:hover{
     color:#eaeaea;
 }
+#resources-links:hover{
+      background-color: rgba(234,234,234,.7);
+}
 .nav-tabs>li>a:hover{
       background-color: rgba(234,234,234,.7);
 }
@@ -418,3 +421,5 @@ sociallink {
     display:block;   
     position: relative;
 }
+
+
