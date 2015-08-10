@@ -225,7 +225,7 @@ profilelink{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    overflow:none;
+    overflow:hidden;
 }
 board{
     width:auto;
