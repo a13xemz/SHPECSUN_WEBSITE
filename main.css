@@ -195,6 +195,7 @@ info{
     padding-top:10px;
     display: inline-block;
     height: auto;
+    overflow: hidden;
 }
 profilequote{
    display: block;
@@ -420,6 +421,7 @@ sociallink:hover hoverlinks{
 sociallink {
     display:block;   
     position: relative;
+    overflow: hidden;
 }
 
 
