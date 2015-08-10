@@ -195,7 +195,6 @@ info{
     padding-top:10px;
     display: inline-block;
     height: auto;
-    overflow: hidden;
 }
 profilequote{
    display: block;
@@ -205,7 +204,7 @@ profilequote{
   text-align: center;
   color: white;
   width: 200px;
-  overflow: scroll;
+  overflow: overlay;
   padding-top: 2px;
   bottom: 0px;
   margin-left: auto;
