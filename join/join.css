@@ -99,3 +99,18 @@ formsub {
 .navbar-inverse{
     display:block;
 }
+#shpeconnect {
+      color: #fff;
+  background-color: rgb(24,43,101);
+  border-color: rgb(24,43,101);
+font-size:20px;
+display:block;
+    text-align:center;
+    padding:10px;
+}
+
+btn {
+    display:block;
+}
+
+

@@ -32,11 +32,17 @@ red {
 }
 
 sc {
-    display:inline;
-    vertical-align:text-top;
+    display:block;
+    vertical-align:middle;
     padding-right:5px;
     padding-left:5px;
-    
+    font-size:35px;
+    color:white;
+    width:250px;
+    text-align:center;
+}
+sc .fa{
+    color:white;
 }
 sc p{
     color:white;
@@ -422,5 +428,14 @@ sociallink {
     position: relative;
     overflow: hidden;
 }
+#nilavid {
+    text-align:center;
+}
+
+.facebook,.instagram,.twitter,.youtube{
+    padding-right:10px;
+}
+
+
 
 

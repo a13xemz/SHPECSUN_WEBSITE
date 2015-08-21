@@ -61,3 +61,16 @@ body{
 a:hover {
   color: black;
 }
+#upto {
+     color: #fff;
+  background-color: rgb(28,126,218);
+  border-color: rgb(28,126,218);
+    font-size:15px;
+    width:400px;
+ float:right;
+}
+
+app {
+    display:inline-block;
+    width:100%;
+}
