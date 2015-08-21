@@ -279,8 +279,13 @@ mainpage .col-md-6 a{
 mainpage .col-md-6 email a{
     color:rgb(0,0,0);
 }
-.col-md-6 p{
-    font-size:22px;
+.col-md-6 p {
+    font-size:20px;
+}
+.col-md-6 li{
+    color:white;
+ font-family:'bebas neue';
+    font-size:18px;
 }
 footer{
     width:100%;
@@ -439,3 +444,11 @@ sociallink {
 
 
 
+
+p1{
+    display:block;
+}
+
+.col-md-6 i {
+    font-size:16px;
+}
