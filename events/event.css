@@ -68,9 +68,15 @@ a:hover {
     font-size:15px;
     width:380px;
  float:right;
+    border-radius:15px;
 }
 
 app {
     display:inline-block;
     width:100%;
+}
+
+t {
+    padding-left:20px;
+    text-indent:0px;
 }
