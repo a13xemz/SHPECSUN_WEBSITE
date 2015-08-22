@@ -106,11 +106,15 @@
                                 </sc-bar>
                                 </sc-bar>
                             </li>
+                            
                             <li>
                                 <subnav><a class="btn btn-primary" id="sub" href="http://eepurl.com/bs5bab" target="_blank">Subscribe to our Newsletter</a>
                                 </subnav>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="/store">Store</a>
                     </li>
                     <li>
                         <a href="http://www.shpe.org" target="_blank">National</a>
@@ -122,7 +126,6 @@
         <!-- /.container -->
     </nav>
 
-
     <!-- Page Content -->
     <navspacer></navspacer>
 
@@ -132,14 +135,60 @@
             <div class="col-lg-12">
                 <h1 class="page-header"><red>events</red>
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Events</li>
-                </ol>
             </div>
         </div>
         <!-- /.row -->
+        <h1><red>upcoming events</red></h1>
+        <!-- Blog Post Row -->
+        <div class="row">
+            <div class="col-md-1 text-center">
+                <p><i class="fa fa-book fa-4x"></i>
+                </p>
+            <p><red>Oct 24,2015</red></p>
+            </div>
+            <div class="col-md-5">
+                <iframe src="https://player.vimeo.com/video/81697174" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/81697174"></a>
+            </div>
+            <div class="col-md-6">
+                <h3><a ><i>Noche de Ciencias</i><small>&nbsp Family Science Night</small></a>
+                </h3>
+                <p>Noches de Ciencias (Family Science Night) – is a national initiative to promote knowledge and interest in science, technology, engineering and math (STEM). The goal of Noches de Ciencias is to inform K-12 students and their families about STEM education and college options through interactive workshops and activities.</p>
+                <p><a href="http://shpe-gsfv.org/ndc/" target="_blank"><red class="text-right">Click here for more info or to register.</red></a>
+                </p>
+            </div>
+        </div>
+        <cal>
+            <div id="upto-calendar-container-eTAO" class="upto-calendar-plugin">
+                <script>
+                    ! function(c, b, a) {
+                        function d(h) {
+                            var e = document.getElementById("upto-calendar-container-" + c),
+                                f = document.createElement("SCRIPT"),
+                                g = "https://upto.com/js/plugin.js";
+                            f.onreadystatechange = function() {
+                                if (f.readyState === "loaded" || f.readyState === "complete") {
+                                    f.onreadystatechange = null;
+                                    h()
+                                }
+                            };
+                            f.onload = function() {
+                                h()
+                            };
+                            f.setAttribute("src", g);
+                            e.parentNode.insertBefore(f, e)
+                        }
+                        d(function() {
+                            upto.init(c)
+                        })
+                    }("eTAO");
+                </script>
+            </div>
+        </cal>
+        <!-- /.row -->  
+        
+        <app><a class="btn btn-primary" id="upto" href="http://onelink.to/shpecsunevents" target="_blank"><img src="/images/uptologo.png" style=" width:60px; border:2px; border-radius:10px;"> <t>Download UpTo to sync our Calender</t><br><t>and search for "SHPE CSUN"</t></a></app>
+        <hr>
+        <h1><red>past events</red></h1>
         <hr>
         <!-- Blog Post Row -->
         <div class="row">
@@ -188,53 +237,6 @@ I am truly grateful for this experience as I have learned great skills, networke
 
         <hr>
 
-        <!-- Blog Post Row -->
-        <div class="row">
-            <div class="col-md-1 text-center">
-                <p><i class="fa fa-book fa-4x"></i>
-                </p>
-                <p>2014</p>
-            </div>
-            <div class="col-md-5">
-                <img  src="/images/ndcgroup.jpg" alt="" style="width:100%">
-            </div>
-            <div class="col-md-6">
-                <h3><a ><i>Noche de Ciencias</i><small>&nbsp Family Science Night</small></a>
-                </h3>
-                <p>Noches de Ciencias (Family Science Night) – is a national initiative to promote knowledge and interest in science, technology, engineering and math (STEM). The goal of Noches de Ciencias is to inform K-12 students and their families about STEM education and college options through interactive workshops and activities.</p>
-            </div>
-        </div>
-        <!-- /.row -->        
-        <hr>
-              <cal>
-            <div id="upto-calendar-container-eTAO" class="upto-calendar-plugin">
-                <script>
-                    ! function(c, b, a) {
-                        function d(h) {
-                            var e = document.getElementById("upto-calendar-container-" + c),
-                                f = document.createElement("SCRIPT"),
-                                g = "https://upto.com/js/plugin.js";
-                            f.onreadystatechange = function() {
-                                if (f.readyState === "loaded" || f.readyState === "complete") {
-                                    f.onreadystatechange = null;
-                                    h()
-                                }
-                            };
-                            f.onload = function() {
-                                h()
-                            };
-                            f.setAttribute("src", g);
-                            e.parentNode.insertBefore(f, e)
-                        }
-                        d(function() {
-                            upto.init(c)
-                        })
-                    }("eTAO");
-                </script>
-            </div>
-        </cal>
-        <app><a class="btn btn-primary" id="upto" href="http://onelink.to/shpecsunevents" target="_blank"><img src="/images/uptologo.png" style=" width:60px; border:2px; border-radius:10px;"> <t>Download UpTo to sync our Calender</t><br><t>and search for "SHPE CSUN"</t></a></app>
-
     </div>
     <!-- /.container -->
 
@@ -246,7 +248,6 @@ I am truly grateful for this experience as I have learned great skills, networke
     <!-- Footer -->
     <footer>
         <p1>Contact us:</p1>
-        <br>
         <left>
             <a href="mailto:info@shpecsun.org">
                 <p1>Via Email: info@shpecsun.org</p1>

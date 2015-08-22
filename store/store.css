@@ -25,12 +25,7 @@ text-align: left;
 navspacer {
     display:block;
     width:auto;
-    height:500px;
-    background-attachment:fixed;
-    background-image:url("/images/ndcproject.jpg");
-    background-size:cover;
-    background-position:bottom;
-    background-repeat:no-repeat;
+    height:50px;
 }
 
 h1 {
@@ -38,7 +33,7 @@ h1 {
     text-shadow: rgba(0, 0, 0, 0.5) 2px 3px 7px;
     text-shadow: none;
     font-weight:normal;
-    color:#8c1129;
+        text-align:center;
 
 }
 body{
@@ -50,7 +45,9 @@ body{
 
 
 .row {
-    padding-top:none;
+    padding-top:0px;
+    border:none;
+    display:block
 }
 
 .page-header {
@@ -58,6 +55,11 @@ body{
   padding-top: 0px;
   border-top: 0px;
     text-transform:lowercase;
+    font-size:50px;
+}
+
+.page-header{
+    color:black;
 }
 a:hover {
   color: black;
@@ -86,21 +88,28 @@ t {
     display:block;
 }
 
-
-
-
-#half {
-    width:70%;
-    display:block
+.navbar-fixed-top {
+    position:static;
 }
 
+store {
+    font-size:80px;
+    color:black;
+}
 
-
-cal {
+#soon {
+    text-align:center;
+    border:none;
+    vertical-align:bottom;
     display:block;
     margin:auto;
-    width:100%;
-    height:500px;
-    overflow:scroll;
+    width:200px;
+    height:auto;
+}
 
+storeemail {
+    font-size:30px;
+}
+storeemail a{
+    color:#8c1129;
 }
