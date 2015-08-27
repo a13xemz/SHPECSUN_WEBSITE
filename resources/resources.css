@@ -34,9 +34,7 @@ navspacer {
     height:500px;
     background-image:url(/images/CSUN_Central_Campus.JPG);
     background-repeat:no-repeat;
-    background-size:100% 100%;
-    background-attachment:fixed;
-    
+    background-size:100% 100%;    
 }
 
 h1 {
