@@ -26,7 +26,6 @@ navspacer {
     display:block;
     width:auto;
     height:500px;
-    background-attachment:fixed;
     background-image:url("/images/ndcproject.jpg");
     background-size:cover;
     background-position:bottom;
