@@ -43,6 +43,7 @@ txtjn {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) ;
+    -webkit-transform:translate(-50%,-50%);
     z-index:2;
     font-size:70px;
     
